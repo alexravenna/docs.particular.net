@@ -1,0 +1,1482 @@
+repo_name: alexravenna/docs.particular.net
+report_id: 1e0407bff9e1d18521cbeff0a82bae61
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-13T11:27:49+00:00'
+requested_by: internalautomation[bot]
+provider: github
+branch: master
+detected_tools_count: 113
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: '4.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/ABSDataBus/ABSDataBus_3.1/ABSDataBus_3.1.csproj
+  detection_source: Snippets/ABSDataBus/ABSDataBus_3.1/ABSDataBus_3.1.csproj
+  last_updated_by: Sean Feldman
+  last_updated_on: 2020-03-04 06:31:31.000000000 Z
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/alexravenna/docs.particular.net
+  detection_source: Repo Metadata
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/SqlPersistence/SqlPersistence_4/MsSqlServer_OutboxCleanup.sql
+  detection_source: Snippets/SqlPersistence/SqlPersistence_4/MsSqlServer_OutboxCleanup.sql
+  last_updated_by: Simon Cropp
+  last_updated_on: 2017-10-24 23:35:22.000000000 Z
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/platformtools-docker-compose/ServiceControl_4/docker-compose.yml
+  detection_source: samples/platformtools-docker-compose/ServiceControl_4/docker-compose.yml
+  last_updated_by: WilliamBZA
+  last_updated_on: 2021-01-04 08:46:58.000000000 Z
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/throttling/Core_7/Limited/Limited.csproj
+  detection_source: samples/throttling/Core_7/Limited/Limited.csproj
+  last_updated_by: Simon Cropp
+  last_updated_on: 2017-08-14 08:18:46.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '6.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/ASBFunctions/ASBFunctions_1.0/ASBFunctions_1.0.csproj
+  detection_source: Snippets/ASBFunctions/ASBFunctions_1.0/ASBFunctions_1.0.csproj
+  last_updated_by: Sean Feldman
+  last_updated_on: 2020-11-10 05:46:43.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: 4.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/ABSDataBus/ABSDataBus_3.1/ABSDataBus_3.1.csproj
+  detection_source: Snippets/ASBFunctions/ASBFunctions_1.0/ASBFunctions_1.0.csproj
+  last_updated_by: Sean Feldman
+  last_updated_on: 2020-11-10 05:46:43.000000000 Z
+- name: Amazon SQS
+  description: Fully managed message queuing service
+  website_url: http://aws.amazon.com/sqs/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/395/amazon-sqs.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/aws/sqs-native-integration/Sqs_6/Sender/Sender.csproj
+  detection_source: samples/aws/sqs-native-integration/Sqs_6/Sender/Sender.csproj
+  last_updated_by: lailabougria
+  last_updated_on: 2021-01-19 15:50:01.000000000 Z
+- name: Azure Storage
+  description: Reliable, economical cloud storage for data big and small
+  website_url: http://azure.microsoft.com/en-us/services/storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/databus/blob-storage-databus-cleanup-function/ABSDataBus_5/DataBusBlobCleanupFunctions/DataBusBlobCleanupFunctions.csproj
+  detection_source: samples/databus/blob-storage-databus-cleanup-function/ABSDataBus_5/DataBusBlobCleanupFunctions/DataBusBlobCleanupFunctions.csproj
+  last_updated_by: Jo Palac
+  last_updated_on: 2022-12-14 01:14:43.000000000 Z
+- name: Confluent
+  description: A stream data platform to help companies harness their high volume
+    real-time data streams
+  website_url: https://www.confluent.io/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/5862/default_89c3b9968d36020bf2eaaf162d706866b6da195f.jpg
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/azure-functions/service-bus-kafka/ASBFunctionsWorker_4/ConsoleEndpoint/ConsoleEndpoint.csproj
+  detection_source: samples/azure-functions/service-bus-kafka/ASBFunctionsWorker_4/ConsoleEndpoint/ConsoleEndpoint.csproj
+  last_updated_by: Dan Kent
+  last_updated_on: 2023-11-29 21:40:24.000000000 Z
+- name: Dapper
+  description: A simple object mapper for .Net
+  website_url: https://stackexchange.github.io/Dapper/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/5847/default_377344b5aec46a959a5debae12cb81f81a64dce3.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/sqltransport-sqlpersistence/Core_7/Receiver/Receiver.csproj
+  detection_source: samples/sqltransport-sqlpersistence/Core_7/Receiver/Receiver.csproj
+  last_updated_by: danielmarbach
+  last_updated_on: 2020-02-04 13:32:50.000000000 Z
+- name: DbGate
+  description: Open source (no)SQL database manager
+  website_url: https://dbgate.org
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/25708/default_9b28428d24a0e4e1d5256c3b7ce3bd30e6556d56.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/aws/dynamodb-simple/DynamoDB_1/docker-compose.yml
+  detection_source: samples/aws/dynamodb-simple/DynamoDB_1/docker-compose.yml
+  last_updated_by: Daniel Marbach
+  last_updated_on: 2023-09-15 09:05:13.000000000 Z
+- name: Entity Framework
+  description: An object-relational mapper that enables .NET developers to work with
+    relational data
+  website_url: https://docs.microsoft.com/en-us/aspnet/entity-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3251/no-img-open-source.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/entity-framework-core/SqlPersistence_6/Endpoint.SqlPersistence/Endpoint.SqlPersistence.csproj
+  detection_source: samples/entity-framework-core/SqlPersistence_6/Endpoint.SqlPersistence/Endpoint.SqlPersistence.csproj
+  last_updated_by: Dan Kent
+  last_updated_on: 2023-12-21 19:58:17.000000000 Z
+- name: Entity Framework Core
+  description: Lightweight and cross-platform version of the popular Entity Framework
+  website_url: https://docs.microsoft.com/en-us/ef/core/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/10254/no-img-open-source.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/entity-framework-core/SqlPersistence_6/Endpoint.SqlPersistence/Endpoint.SqlPersistence.csproj
+  detection_source: samples/entity-framework-core/SqlPersistence_6/Endpoint.SqlPersistence/Endpoint.SqlPersistence.csproj
+  last_updated_by: Dan Kent
+  last_updated_on: 2023-12-21 19:58:17.000000000 Z
+- name: Hangfire
+  description: Perform background processing in .NET and .NET Core applications
+  website_url: http://hangfire.io/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Background Processing
+  image_url: https://img.stackshare.io/service/4676/7880472.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/scheduling/hangfire/Core_7/Scheduler/Scheduler.csproj
+  detection_source: samples/scheduling/hangfire/Core_7/Scheduler/Scheduler.csproj
+  last_updated_by: Travis Nickels
+  last_updated_on: 2024-01-31 21:53:53.000000000 Z
+- name: Kafka
+  description: Distributed, fault tolerant, high throughput pub-sub messaging system
+  website_url: http://kafka.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1063/kazUJooF_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/azure-functions/service-bus-kafka/ASBFunctionsWorker_4/ConsoleEndpoint/ConsoleEndpoint.csproj
+  detection_source: samples/azure-functions/service-bus-kafka/ASBFunctionsWorker_4/ConsoleEndpoint/ConsoleEndpoint.csproj
+  last_updated_by: Dan Kent
+  last_updated_on: 2023-11-29 21:40:24.000000000 Z
+- name: Microsoft SQL Server
+  description: A relational database management system developed by Microsoft
+  website_url: http://microsoft.com/sqlserver
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1027/sql_server.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/entity-framework-core/SqlPersistence_6/Endpoint.SqlPersistence/Endpoint.SqlPersistence.csproj
+  detection_source: samples/entity-framework-core/SqlPersistence_6/Endpoint.SqlPersistence/Endpoint.SqlPersistence.csproj
+  last_updated_by: Dan Kent
+  last_updated_on: 2023-12-21 19:58:17.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/mongodb/simple/MongoDB_2/Server/Server.csproj
+  detection_source: samples/mongodb/simple/MongoDB_2/Server/Server.csproj
+  last_updated_by: Indu Alagarsamy
+  last_updated_on: 2019-10-09 20:35:24.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/aws/sagas-lambda-aurora/SQSLambda_0/DeployDatabase/DeployDatabase.csproj
+  detection_source: samples/aws/sagas-lambda-aurora/SQSLambda_0/DeployDatabase/DeployDatabase.csproj
+  last_updated_by: Christian
+  last_updated_on: 2023-11-06 14:07:21.000000000 Z
+- name: NHibernate
+  description: The object-relational mapper for .NET
+  website_url: https://nhibernate.info
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/2250/LogoNH_med_400x400.JPG
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/msmq/msmqtosqlrelay/MsmqTransport_1/MsmqPublisher/MsmqPublisher.csproj
+  detection_source: samples/msmq/msmqtosqlrelay/MsmqTransport_1/MsmqPublisher/MsmqPublisher.csproj
+  last_updated_by: Szymon Kulec
+  last_updated_on: 2018-07-12 07:42:52.000000000 Z
+- name: NServiceBus
+  description: Enterprise-grade scalability and reliability for your workflows and
+    integrations
+  website_url: http://particular.net/nservicebus
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/2885/ENuT-Iy4_400x400.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/Callbacks/Callbacks_3/Callbacks_3.csproj
+  detection_source: Snippets/Callbacks/Callbacks_3/Callbacks_3.csproj
+  last_updated_by: Hadi Eskandari
+  last_updated_on: 2022-09-20 23:25:29.000000000 Z
+- name: Oracle
+  description: An RDBMS that implements object-oriented features such as user-defined
+    types, inheritance, and polymorphism
+  website_url: http://www.oracle.com/us/products/database/overview/index.html
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1026/jT-HJYJg.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/sql-persistence/simple/SqlPersistence_6/EndpointOracle/EndpointOracle.csproj
+  detection_source: samples/sql-persistence/simple/SqlPersistence_6/EndpointOracle/EndpointOracle.csproj
+  last_updated_by: Szymon Pobiega
+  last_updated_on: 2020-06-23 10:19:46.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/SqlPersistence/SqlPersistence_4/SqlPersistence_4.csproj
+  detection_source: Snippets/SqlPersistence/SqlPersistence_4/SqlPersistence_4.csproj
+  last_updated_by: Simon Cropp
+  last_updated_on: 2017-10-24 23:35:22.000000000 Z
+- name: RabbitMQ
+  description: Open source multiprotocol messaging broker
+  website_url: http://www.rabbitmq.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/1061/default_df93e9a30d27519161b39d8c1d5c223c1642d187.jpg
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/hosting/docker/Core_7/Receiver/Receiver.csproj
+  detection_source: samples/hosting/docker/Core_7/Receiver/Receiver.csproj
+  last_updated_by: Andreas Bednarz
+  last_updated_on: 2022-12-19 02:43:02.000000000 Z
+- name: Serverless AppSync
+  description: Easily and quickly deploy GraphQL APIs on AWS
+  website_url: https://github.com/serverless-components/aws-app-sync
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: GraphQL Tools
+  image_url: https://img.stackshare.io/service/11394/appsync.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/outbox/rabbit/Core_7/docker-compose.yml
+  detection_source: samples/outbox/rabbit/Core_7/docker-compose.yml
+  last_updated_by: David Boike
+  last_updated_on: 2019-07-29 17:10:59.000000000 Z
+- name: AutoFac
+  description: An Inversion of Control container
+  website_url: https://autofac.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/6953/default_17650e39faa714f82fcdb12b14af73c704a15d2f.jpg
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/serviceinsight/messageviewer/ServiceInsight_2/ServiceInsight.Plugin/ServiceInsight.Plugin.csproj
+  detection_source: samples/serviceinsight/messageviewer/ServiceInsight_2/ServiceInsight.Plugin/ServiceInsight.Plugin.csproj
+  last_updated_by: Adam Wright
+  last_updated_on: 2022-09-22 12:23:38.000000000 Z
+- name: Azure Service Fabric
+  description: Distributed systems platform that simplifies build, package, deploy,
+    and management of scalable microservices apps
+  website_url: https://azure.microsoft.com/en-gb/services/service-fabric/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/5199/default_5822795a66d193ac0a65aadcdecbf718bb9660df.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/Core/Core_7/Core_7.csproj
+  detection_source: Snippets/Core/Core_7/Core_7.csproj
+  last_updated_by: Mauro Servienti
+  last_updated_on: 2018-06-25 11:37:15.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/.github/workflows/build-samples-and-snippets.yml
+  detection_source: ".github/workflows/build-samples-and-snippets.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-04 17:11:31.000000000 Z
+- name: Grafana
+  description: Open source Graphite &amp; InfluxDB Dashboard and Graph Editor
+  website_url: http://grafana.org/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2645/default_8f9d552b144493679449b16c79647da5787e808b.jpg
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/open-telemetry/prometheus-grafana/docker-compose.yml
+  detection_source: samples/open-telemetry/prometheus-grafana/docker-compose.yml
+  last_updated_by: Hadi Eskandari
+  last_updated_on: 2022-07-05 06:27:12.000000000 Z
+- name: NUnit
+  description: An open-source unit testing framework
+  website_url: http://www.nunit.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2371/jZ6MYx5Y_400x400.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/Core/Core_7/Core_7.csproj
+  detection_source: Snippets/Core/Core_7/Core_7.csproj
+  last_updated_by: Simon Cropp
+  last_updated_on: 2017-05-24 06:23:40.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/throttling/Core_7/Limited/Limited.csproj
+  detection_source: samples/throttling/Core_7/Limited/Limited.csproj
+  last_updated_by: Simon Cropp
+  last_updated_on: 2017-05-25 03:50:17.000000000 Z
+- name: OpenTelemetry
+  description: A single set of APIs, libraries, agents, and collector services to
+    capture distributed traces and metrics from your application
+  website_url: https://opentelemetry.io/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/21211/default_0cd8944735bb1aaffbb5abc2d0e513a253ed615d.jpg
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/Core/Core_8.1/Core_8.1.csproj
+  detection_source: Snippets/Core/Core_8.1/Core_8.1.csproj
+  last_updated_by: Andreas Öhlund
+  last_updated_on: 2023-06-15 19:58:16.000000000 Z
+- name: Owin
+  description: A standard interface between .NET web servers and web applications
+  website_url: http://owin.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Web Server Interface
+  image_url: https://img.stackshare.io/service/4967/New_Project__95_.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  detection_source: samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-10-11 15:28:40.000000000 Z
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/open-telemetry/prometheus-grafana/docker-compose.yml
+  detection_source: samples/open-telemetry/prometheus-grafana/docker-compose.yml
+  last_updated_by: Andreas Öhlund
+  last_updated_on: 2024-01-12 20:53:56.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/ABSDataBus/ABSDataBus.sln
+  detection_source: Snippets/ABSDataBus/ABSDataBus.sln
+  last_updated_by: Andreas Öhlund
+  last_updated_on: 2023-10-18 15:36:39.000000000 Z
+- name: Azure Functions
+  description: Listen and react to events across your stack
+  website_url: https://azure.microsoft.com/en-us/services/functions/
+  open_source: false
+  hosted_saas: true
+  category: Application Hosting
+  sub_category: Serverless / Task Processing
+  image_url: https://img.stackshare.io/service/4851/default_1c86e0d45d685cb73aa9a39a658159f6199de49d.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/databus/blob-storage-databus-cleanup-function/ABSDataBus_5/DataBusBlobCleanupFunctions/DataBusBlobCleanupFunctions.csproj
+  detection_source: samples/databus/blob-storage-databus-cleanup-function/ABSDataBus_5/DataBusBlobCleanupFunctions/DataBusBlobCleanupFunctions.csproj
+  last_updated_by: Jo Palac
+  last_updated_on: 2022-12-14 01:14:43.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/platformtools-docker-compose/ServiceControl_4/docker-compose.yml
+  detection_source: samples/platformtools-docker-compose/ServiceControl_4/docker-compose.yml
+  last_updated_by: WilliamBZA
+  last_updated_on: 2021-01-04 08:46:58.000000000 Z
+- name: NLog
+  description: Flexible &amp; free open-source logging for .NET
+  website_url: https://nlog-project.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9672/nlog_logo_square_normal.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/NLog/Extensions.Logging_1/Extensions.Logging_1.csproj
+  detection_source: Snippets/NLog/Extensions.Logging_1/Extensions.Logging_1.csproj
+  last_updated_by: Ramon Smits
+  last_updated_on: 2020-03-12 07:32:47.000000000 Z
+- name: Postscript
+  description: Mailchimp for SMS
+  website_url: https://www.postscript.io/
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Voice and SMS
+  image_url: https://img.stackshare.io/service/10628/YjdR4whL_400x400.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net
+  detection_source: Repo Metadata
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net
+  detection_source: Repo Metadata
+- name: AWSSDK.SQS
+  description: Amazon Simple Queue Service
+  package_url: https://www.nuget.org/AWSSDK.SQS
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13304/default_a905ee276a536c55784ed56585a51a44d19b6d5b.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/aws/sqs-native-integration/Sqs_6/Sender/Sender.csproj
+  detection_source: samples/aws/sqs-native-integration/Sqs_6/Sender/Sender.csproj
+  last_updated_by: Adam Wright
+  last_updated_on: 2022-09-22 12:23:38.000000000 Z
+- name: Amazon.Lambda.APIGatewayEvents
+  description: Amazon Lambda .NET Core support - API Gateway package
+  package_url: https://www.nuget.org/Amazon.Lambda.APIGatewayEvents
+  version: 2.6.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14165/default_95e62237fe99b6cac91c2c45f56ea2f28dc7a851.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/aws/lambda-sqs/SQSLambda_0/ServerlessEndpoint/ServerlessEndpoint.csproj
+  detection_source: samples/aws/lambda-sqs/SQSLambda_0/ServerlessEndpoint/ServerlessEndpoint.csproj
+  last_updated_by: Christian
+  last_updated_on: 2023-08-07 21:33:13.000000000 Z
+- name: Amazon.Lambda.Core
+  description: Amazon Lambda .NET Core support - Core package
+  package_url: https://www.nuget.org/Amazon.Lambda.Core
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13609/default_2fed3dd41a57ad03758b88d7d49dbbc498986493.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/aws/lambda-sqs/SQSLambda_0/ServerlessEndpoint/ServerlessEndpoint.csproj
+  detection_source: samples/aws/lambda-sqs/SQSLambda_0/ServerlessEndpoint/ServerlessEndpoint.csproj
+  last_updated_by: Christian
+  last_updated_on: 2023-08-07 21:33:13.000000000 Z
+- name: ApprovalTests
+  description: A picture's worth a 1000 tests
+  package_url: https://www.nuget.org/ApprovalTests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13924/default_1dc9a9444fe68b18bef2b0e836067caced79799a.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/MsmqTransport/MsmqTransport_All/MsmqTransport_All.csproj
+  detection_source: Snippets/MsmqTransport/MsmqTransport_All/MsmqTransport_All.csproj
+  last_updated_by: Simon Cropp
+  last_updated_on: 2017-05-08 00:06:43.000000000 Z
+- name: Autofac.Configuration
+  description: Configuration support for Autofac
+  package_url: https://www.nuget.org/Autofac.Configuration
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14113/default_d7d5794851dadbcf90dc060e882cc3b488ce3484.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/serviceinsight/messageviewer/ServiceInsight_2/ServiceInsight.Plugin/ServiceInsight.Plugin.csproj
+  detection_source: samples/serviceinsight/messageviewer/ServiceInsight_2/ServiceInsight.Plugin/ServiceInsight.Plugin.csproj
+  last_updated_by: Adam Wright
+  last_updated_on: 2022-09-22 12:23:38.000000000 Z
+- name: Autofac.Extensions.DependencyInjection
+  description: Autofac implementation of the interfaces in Microsoft.Extensions.DependencyInjection.Abstractions
+  package_url: https://www.nuget.org/Autofac.Extensions.DependencyInjection
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13019/default_2e1baa8748e6f549b126bd1ce8d11fcaa67ba4bb.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/dependency-injection/aspnetcore/Core_7.2/SampleAutofac/SampleAutofac.csproj
+  detection_source: samples/dependency-injection/aspnetcore/Core_7.2/SampleAutofac/SampleAutofac.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-05-12 18:12:12.000000000 Z
+- name: AvalonEdit
+  description: AvalonEdit is the WPF-based text editor used in SharpDevelop
+  package_url: https://www.nuget.org/AvalonEdit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14238/default_db0392ac0437007314492dc2fcd84e85a9039eb4.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/serviceinsight/messageviewer/ServiceInsight_2/ServiceInsight.Plugin/ServiceInsight.Plugin.csproj
+  detection_source: samples/serviceinsight/messageviewer/ServiceInsight_2/ServiceInsight.Plugin/ServiceInsight.Plugin.csproj
+  last_updated_by: Adam Wright
+  last_updated_on: 2022-09-22 12:23:38.000000000 Z
+- name: Caliburn.Micro
+  description: A small, yet powerful framework designed for Xaml platforms, Caliburn.Micro
+    implements a variety of UI patterns for solving real-world problems
+  package_url: https://www.nuget.org/Caliburn.Micro
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13266/default_3b9faa77d26eef0a944d4dab8d562db23059cb72.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/serviceinsight/messageviewer/ServiceInsight_2/ServiceInsight.Plugin/ServiceInsight.Plugin.csproj
+  detection_source: samples/serviceinsight/messageviewer/ServiceInsight_2/ServiceInsight.Plugin/ServiceInsight.Plugin.csproj
+  last_updated_by: Adam Wright
+  last_updated_on: 2022-09-22 12:23:38.000000000 Z
+- name: Confluent.Kafka
+  description: Confluent's .NET Client for Apache Kafka
+  package_url: https://www.nuget.org/Confluent.Kafka
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13176/default_81ac985912284073db895b0d26abf3657532a164.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/azure-functions/service-bus-kafka/ASBFunctionsWorker_4/ConsoleEndpoint/ConsoleEndpoint.csproj
+  detection_source: samples/azure-functions/service-bus-kafka/ASBFunctionsWorker_4/ConsoleEndpoint/ConsoleEndpoint.csproj
+  last_updated_by: Dan Kent
+  last_updated_on: 2023-11-29 21:40:24.000000000 Z
+- name: DogStatsD-CSharp-Client
+  description: A DogStatsD client for C#
+  package_url: https://www.nuget.org/DogStatsD-CSharp-Client
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15589/default_eff5a76fe2070b646450b72886bd30c89a582194.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/logging/datadog/Core_7/Endpoint/Endpoint.csproj
+  detection_source: samples/logging/datadog/Core_7/Endpoint/Endpoint.csproj
+  last_updated_by: Andreas Öhlund
+  last_updated_on: 2024-01-19 20:59:29.000000000 Z
+- name: FluentNHibernate
+  description: Fluent
+  package_url: https://www.nuget.org/FluentNHibernate
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13132/default_44f069d4a745c5c788fc8fe5128bd24cacde1aff.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/nhibernate/custom-mappings/NHibernate_8/Sample.Fluent/Sample.Fluent.csproj
+  detection_source: samples/nhibernate/custom-mappings/NHibernate_8/Sample.Fluent/Sample.Fluent.csproj
+  last_updated_by: Adam Wright
+  last_updated_on: 2022-09-22 12:23:38.000000000 Z
+- name: FluentScheduler
+  description: Automated job scheduler with fluent interface
+  package_url: https://www.nuget.org/FluentScheduler
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15213/default_dc1980c0e4a126ab89ae1c515a7828dad2733b46.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/scheduling/fluentscheduler/Core_7/Scheduler/Scheduler.csproj
+  detection_source: samples/scheduling/fluentscheduler/Core_7/Scheduler/Scheduler.csproj
+  last_updated_by: Adam Wright
+  last_updated_on: 2022-09-22 12:23:38.000000000 Z
+- name: Hangfire.Core
+  description: An easy and reliable way to perform fire-and-forget, delayed and recurring,
+    long-running, short-running, CPU or I/O intensive tasks inside ASP.NET applications
+  package_url: https://www.nuget.org/Hangfire.Core
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13154/default_8ec8443385d582f19f93b79f0dcf69f422e58967.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/scheduling/hangfire/Core_7/Scheduler/Scheduler.csproj
+  detection_source: samples/scheduling/hangfire/Core_7/Scheduler/Scheduler.csproj
+  last_updated_by: Travis Nickels
+  last_updated_on: 2024-01-31 21:53:53.000000000 Z
+- name: Hangfire.MemoryStorage
+  description: A memory storage for Hangfire
+  package_url: https://www.nuget.org/Hangfire.MemoryStorage
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14960/default_acfa5bb9d9399ceb54a1b978e62e07828bf710ec.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/scheduling/hangfire/Core_7/Scheduler/Scheduler.csproj
+  detection_source: samples/scheduling/hangfire/Core_7/Scheduler/Scheduler.csproj
+  last_updated_by: Travis Nickels
+  last_updated_on: 2024-01-31 21:53:53.000000000 Z
+- name: Iesi.Collections
+  description: The System.Collections namespace in the .NET Framework provides a number
+    of collection types that are extremely useful for manipulating data in memory
+  package_url: https://www.nuget.org/Iesi.Collections
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13107/default_baa6c1c3e725b18a803052f0d13efd0ca49e5d50.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/msmq/msmqtosqlrelay/MsmqTransport_1/MsmqPublisher/MsmqPublisher.csproj
+  detection_source: samples/msmq/msmqtosqlrelay/MsmqTransport_1/MsmqPublisher/MsmqPublisher.csproj
+  last_updated_by: Brandon Ording
+  last_updated_on: 2018-05-21 18:44:44.000000000 Z
+- name: MassTransit.RabbitMQ
+  description: MassTransit RabbitMQ transport support; MassTransit is a message-based
+    distributed application framework for .NET http://masstransit-project.com
+  package_url: https://www.nuget.org/MassTransit.RabbitMQ
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13393/default_58586312c472dfb09866d07812bed5501fb0b524.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/pipeline/masstransit-messages/Core_7/MTEndpoint/MTEndpoint.csproj
+  detection_source: samples/pipeline/masstransit-messages/Core_7/MTEndpoint/MTEndpoint.csproj
+  last_updated_by: Adam Wright
+  last_updated_on: 2022-09-22 12:23:38.000000000 Z
+- name: Microsoft.ApplicationInsights
+  description: Application Insights Base API
+  package_url: https://www.nuget.org/Microsoft.ApplicationInsights
+  version: '2.14'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13015/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/servicecontrol/azure-monitor-events/ServiceControlContracts_3/EndpointsMonitor/AzureMonitorConnector.csproj
+  detection_source: samples/open-telemetry/application-insights/Core_8/Endpoint/Endpoint.csproj
+  last_updated_by: Andreas Öhlund
+  last_updated_on: 2024-01-12 20:53:56.000000000 Z
+- name: Microsoft.AspNet.Cors
+  description: Microsoft.AspNet.Cors
+  package_url: https://www.nuget.org/Microsoft.AspNet.Cors
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13276/default_cadeaa4a9968284dcd1223273394c410c31c9d09.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  detection_source: samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-10-11 15:28:40.000000000 Z
+- name: Microsoft.AspNet.Mvc
+  description: ASP.NET MVC is a web framework that gives you a powerful, patterns-based
+    way to build dynamic websites and Web APIs
+  package_url: https://www.nuget.org/Microsoft.AspNet.Mvc
+  version: 5.2.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12850/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/Core/Core_8.1/Core_8.1.csproj
+  detection_source: Snippets/Core/Core_8.1/Core_8.1.csproj
+  last_updated_by: Brandon Ording
+  last_updated_on: 2023-11-01 21:51:57.000000000 Z
+- name: Microsoft.AspNet.SignalR.Client
+  description: ".NET client for ASP.NET SignalR"
+  package_url: https://www.nuget.org/Microsoft.AspNet.SignalR.Client
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13208/default_c8e572417e69bbdabda8ecc4a08c016319f24023.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/near-realtime-clients/Core_7/Client/Client.csproj
+  detection_source: samples/near-realtime-clients/Core_7/Client/Client.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-10-11 15:28:40.000000000 Z
+- name: Microsoft.AspNet.SignalR.Core
+  description: Async signaling library for .NET to help build real-time
+  package_url: https://www.nuget.org/Microsoft.AspNet.SignalR.Core
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13146/default_44f069d4a745c5c788fc8fe5128bd24cacde1aff.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  detection_source: samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-10-11 15:28:40.000000000 Z
+- name: Microsoft.AspNet.SignalR.SelfHost
+  description: This package includes the required dependencies for self-hosting SignalR
+    in a process outside of IIS using OWIN and HTTPListener
+  package_url: https://www.nuget.org/Microsoft.AspNet.SignalR.SelfHost
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15466/default_3daf9923ccd8026393358b391c3de856b21a8437.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  detection_source: samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-10-11 15:28:40.000000000 Z
+- name: Microsoft.AspNet.SignalR.SystemWeb
+  description: Incredibly simple real-time web for .NET
+  package_url: https://www.nuget.org/Microsoft.AspNet.SignalR.SystemWeb
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13572/default_0315c6f585d697b995865fc75e63a95bb3ca63bb.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/showcase/cloud-azure/Core_7/Store.ECommerce/Store.ECommerce.csproj
+  detection_source: samples/showcase/cloud-azure/Core_7/Store.ECommerce/Store.ECommerce.csproj
+  last_updated_by: danielmarbach
+  last_updated_on: 2021-03-26 08:20:22.000000000 Z
+- name: Microsoft.AspNetCore.Mvc
+  description: ASP.NET Core MVC is a web framework that gives you a powerful, patterns-based
+    way to build dynamic websites and web APIs
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.Mvc
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12878/default_485731cffe5047176f704e34ccfabc7dc075f3d9.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/router/update-and-publish/Router_3/Frontend/Frontend.csproj
+  detection_source: samples/router/update-and-publish/Router_3/Frontend/Frontend.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2020-02-07 17:00:26.000000000 Z
+- name: Microsoft.Azure.Cosmos.Table
+  description: This client library enables working with the Microsoft Azure CosmosDB
+    Table storage
+  package_url: https://www.nuget.org/Microsoft.Azure.Cosmos.Table
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13854/default_e637dea816bab62ca037ba8b354e359bd6438b40.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/azure-service-bus-netstandard/azure-service-bus-long-running/ASBS_2/Shared/Shared.csproj
+  detection_source: samples/azure-service-bus-netstandard/azure-service-bus-long-running/ASBS_2/Shared/Shared.csproj
+  last_updated_by: awright18
+  last_updated_on: 2022-09-21 14:15:48.000000000 Z
+- name: Microsoft.Azure.ServiceBus
+  description: This is the next generation Azure Service Bus .NET Standard client
+    library that focuses on queues &amp; topics
+  package_url: https://www.nuget.org/Microsoft.Azure.ServiceBus
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13117/default_7730aba6df4478f4dfdede17ef73dd29c3d5f711.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/azure-service-bus-netstandard/native-integration/ASBS_2/Shared/Shared.csproj
+  detection_source: samples/azure-service-bus-netstandard/native-integration/ASBS_2/Shared/Shared.csproj
+  last_updated_by: Tim Bussmann
+  last_updated_on: 2021-02-17 13:41:41.000000000 Z
+- name: Microsoft.Azure.Storage.Blob
+  description: This client library enables working with the Microsoft Azure Storage
+    Blob service for storing binary and text data
+  package_url: https://www.nuget.org/Microsoft.Azure.Storage.Blob
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13336/default_51dc9af41ee0a21e27551191d6c835184da1c0d8.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/databus/blob-storage-databus-cleanup-function/ABSDataBus_5/DataBusBlobCleanupFunctions/DataBusBlobCleanupFunctions.csproj
+  detection_source: samples/databus/blob-storage-databus-cleanup-function/ABSDataBus_5/DataBusBlobCleanupFunctions/DataBusBlobCleanupFunctions.csproj
+  last_updated_by: Jo Palac
+  last_updated_on: 2022-12-14 01:14:43.000000000 Z
+- name: Microsoft.Azure.WebJobs
+  description: This package contains the runtime assemblies for Microsoft.Azure.WebJobs.Host
+  package_url: https://www.nuget.org/Microsoft.Azure.WebJobs
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13246/default_43ce02ab18bb400d4d6b410ac4dc3a50f87e634a.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/azure/webjob-host/Core_7/Receiver/Receiver.csproj
+  detection_source: samples/azure/webjob-host/Core_7/Receiver/Receiver.csproj
+  last_updated_by: Daniel Marbach
+  last_updated_on: 2020-02-26 13:16:18.000000000 Z
+- name: Microsoft.Azure.WebJobs.Extensions
+  description: This package contains Timers and File triggers
+  package_url: https://www.nuget.org/Microsoft.Azure.WebJobs.Extensions
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13643/default_cf7c9bcc8caff1ab5c9fba9a4cc235b100a0a0b2.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/azure/webjob-host/Core_7/Receiver/Receiver.csproj
+  detection_source: samples/azure/webjob-host/Core_7/Receiver/Receiver.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-05-12 18:12:12.000000000 Z
+- name: Microsoft.CSharp
+  description: Provides support for compilation and code generation, including dynamic,
+    using the C# language
+  package_url: https://www.nuget.org/Microsoft.CSharp
+  version: 4.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12845/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/SqlPersistence/SqlPersistence_5/SqlPersistence_5.csproj
+  detection_source: Snippets/SqlPersistence/SqlPersistence_5/SqlPersistence_5.csproj
+  last_updated_by: Andreas Öhlund
+  last_updated_on: 2023-11-01 19:39:24.000000000 Z
+- name: Microsoft.EntityFrameworkCore.SqlServer
+  description: Microsoft SQL Server database provider for Entity Framework Core
+  package_url: https://www.nuget.org/Microsoft.EntityFrameworkCore.SqlServer
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12891/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/entity-framework-core/SqlPersistence_6/Endpoint.SqlPersistence/Endpoint.SqlPersistence.csproj
+  detection_source: samples/entity-framework-core/SqlPersistence_6/Endpoint.SqlPersistence/Endpoint.SqlPersistence.csproj
+  last_updated_by: Dan Kent
+  last_updated_on: 2023-12-21 19:58:17.000000000 Z
+- name: Microsoft.Extensions.Hosting
+  description: ".NET Core hosting and startup infrastructures for applications"
+  package_url: https://www.nuget.org/Microsoft.Extensions.Hosting
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13013/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/bridge/service-control/Bridge_2/Bridge/Bridge.csproj
+  detection_source: samples/bridge/service-control/Bridge_2/Bridge/Bridge.csproj
+  last_updated_by: Kyle Baley
+  last_updated_on: 2023-06-20 19:53:37.000000000 Z
+- name: Microsoft.Extensions.Logging
+  description: Logging infrastructure default implementation for Microsoft.Extensions.Logging
+  package_url: https://www.nuget.org/Microsoft.Extensions.Logging
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12854/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/azure/webjob-host/Core_7/Receiver/Receiver.csproj
+  detection_source: samples/azure/webjob-host/Core_7/Receiver/Receiver.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-05-12 18:12:12.000000000 Z
+- name: Microsoft.Extensions.Logging.Console
+  description: Console logger provider implementation for Microsoft.Extensions.Logging
+  package_url: https://www.nuget.org/Microsoft.Extensions.Logging.Console
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12943/default_e7f4dfb8f4634d3de09f6ace4c8d9767d3189c61.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/azure/webjob-host/Core_7/Receiver/Receiver.csproj
+  detection_source: samples/azure/webjob-host/Core_7/Receiver/Receiver.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-05-12 18:12:12.000000000 Z
+- name: Microsoft.Extensions.Logging.Debug
+  description: Debug output logger provider implementation for Microsoft.Extensions.Logging
+  package_url: https://www.nuget.org/Microsoft.Extensions.Logging.Debug
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12995/default_c33fee4544dbdcb376300222dc5e214ee63f7ce9.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/router/update-and-publish/Router_3/Frontend/Frontend.csproj
+  detection_source: samples/router/update-and-publish/Router_3/Frontend/Frontend.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-05-12 18:12:12.000000000 Z
+- name: Microsoft.NETCore.Targets
+  description: 'Provides supporting infrastructure for portable projects: support
+    identifiers that define framework and runtime for support targets and packages
+    that reference the minimum suppo...'
+  package_url: https://www.nuget.org/Microsoft.NETCore.Targets
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13376/default_4365d404b4980fe62927eb339d7814e74037cd43.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/multi-tenant/nhibernate/NHibernate_8/Receiver/Receiver.csproj
+  detection_source: samples/multi-tenant/nhibernate/NHibernate_8/Receiver/Receiver.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-05-12 18:12:12.000000000 Z
+- name: Microsoft.Owin
+  description: Provides a set of helper types and abstractions for simplifying the
+    creation of OWIN components
+  package_url: https://www.nuget.org/Microsoft.Owin
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12889/default_d56a77cbb06d3dae6daef9669108e3e01d2494af.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  detection_source: samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-10-11 15:28:40.000000000 Z
+- name: Microsoft.Owin.Cors
+  description: This package contains the components to enable Cross-Origin Resource
+    Sharing
+  package_url: https://www.nuget.org/Microsoft.Owin.Cors
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13252/default_c8e572417e69bbdabda8ecc4a08c016319f24023.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  detection_source: samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-10-11 15:28:40.000000000 Z
+- name: Microsoft.Owin.Diagnostics
+  description: Provides middleware components to assist in developing OWIN-based applications
+  package_url: https://www.nuget.org/Microsoft.Owin.Diagnostics
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13815/default_906747c0f563678b65583738a459bbd5993167b7.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  detection_source: samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-10-11 15:28:40.000000000 Z
+- name: Microsoft.Owin.Host.HttpListener
+  description: OWIN server built on the .NET Framework's HttpListener class
+  package_url: https://www.nuget.org/Microsoft.Owin.Host.HttpListener
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13215/default_18a92235046d8c8db548cd22b87cf5792dc31759.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  detection_source: samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-10-11 15:28:40.000000000 Z
+- name: Microsoft.Owin.Hosting
+  description: Provides default infrastructure types for hosting and running OWIN-based
+    applications
+  package_url: https://www.nuget.org/Microsoft.Owin.Hosting
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13165/default_a5e8cd728170fc92850284a53a17ff7deb73f318.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  detection_source: samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-10-11 15:28:40.000000000 Z
+- name: Microsoft.Owin.Security
+  description: Common types which are shared by the various authentication middleware
+    components
+  package_url: https://www.nuget.org/Microsoft.Owin.Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12922/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  detection_source: samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-10-11 15:28:40.000000000 Z
+- name: Microsoft.Owin.SelfHost
+  description: Includes components needed to host an OWIN-based application in a custom
+    process
+  package_url: https://www.nuget.org/Microsoft.Owin.SelfHost
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13887/default_12c355ecd1469432782d9a53a6225a499e793b39.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  detection_source: samples/near-realtime-clients/Core_7/ClientHub/ClientHub.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2023-10-11 15:28:40.000000000 Z
+- name: Microsoft.ServiceFabric
+  description: This package contains the reference assemblies required to build a
+    Service Fabric service
+  package_url: https://www.nuget.org/Microsoft.ServiceFabric
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13535/default_3e69852d36136f860cbd7840ffb14e3d1b96e265.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/azure/azure-service-fabric-routing/Core_8/CandidateVoteCount/CandidateVoteCount.csproj
+  detection_source: samples/azure/azure-service-fabric-routing/Core_8/CandidateVoteCount/CandidateVoteCount.csproj
+  last_updated_by: Ramon Smits
+  last_updated_on: 2022-11-18 11:41:12.000000000 Z
+- name: Microsoft.ServiceFabric.Data
+  description: This package contains the runtime assemblies required by Service Fabric's
+    ReliableCollections APIs
+  package_url: https://www.nuget.org/Microsoft.ServiceFabric.Data
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14019/default_3d26bcbf01a0fc36e71a0bdc422ae186e1ec46f7.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/azure/azure-service-fabric-routing/Core_8/CandidateVoteCount/CandidateVoteCount.csproj
+  detection_source: samples/azure/azure-service-fabric-routing/Core_8/CandidateVoteCount/CandidateVoteCount.csproj
+  last_updated_by: Ramon Smits
+  last_updated_on: 2022-11-18 11:41:12.000000000 Z
+- name: Microsoft.ServiceFabric.Services
+  description: This package contains the common Service Framework APIs for building
+    and connecting to reliable services on Microsoft Service Fabric
+  package_url: https://www.nuget.org/Microsoft.ServiceFabric.Services
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13344/default_24f30a6aa060dc11b9cd4dd1d52905db9245e978.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/Core/Core_7/Core_7.csproj
+  detection_source: Snippets/Core/Core_7/Core_7.csproj
+  last_updated_by: Andreas Öhlund
+  last_updated_on: 2023-10-10 20:17:06.000000000 Z
+- name: Microsoft.WindowsAzure.ConfigurationManager
+  description: Microsoft Azure Configuration Manager provides a unified API to load
+    configuration settings regardless of where the application is hosted - whether
+    on-premises or in a Cloud Ser...
+  package_url: https://www.nuget.org/Microsoft.WindowsAzure.ConfigurationManager
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13007/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/showcase/cloud-azure/Core_7/Store.Shared/Store.Shared.csproj
+  detection_source: samples/showcase/cloud-azure/Core_7/Store.Shared/Store.Shared.csproj
+  last_updated_by: danielmarbach
+  last_updated_on: 2021-03-25 16:18:41.000000000 Z
+- name: MongoDB.Driver
+  description: Official .NET driver for MongoDB
+  package_url: https://www.nuget.org/MongoDB.Driver
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12892/default_f3b66025ae87cade251c16c8d9e166b0f1df9597.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/mongodb/simple/MongoDB_2/Server/Server.csproj
+  detection_source: samples/mongodb/simple/MongoDB_2/Server/Server.csproj
+  last_updated_by: Indu Alagarsamy
+  last_updated_on: 2019-10-09 20:35:24.000000000 Z
+- name: Mono.Cecil
+  description: Cecil is a library written by Jb Evain to generate and inspect programs
+    and libraries in the ECMA CIL format
+  package_url: https://www.nuget.org/Mono.Cecil
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13100/default_baa6c1c3e725b18a803052f0d13efd0ca49e5d50.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/MsmqTransport/MsmqTransport_All/MsmqTransport_All.csproj
+  detection_source: Snippets/MsmqTransport/MsmqTransport_All/MsmqTransport_All.csproj
+  last_updated_by: Simon Cropp
+  last_updated_on: 2017-05-08 00:06:43.000000000 Z
+- name: MySql.Data
+  description: MySql.Data.MySqlClient .Net Core Class Library
+  package_url: https://www.nuget.org/MySql.Data
+  version: 8.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12888/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/aws/sagas-lambda-aurora/SQSLambda_0/DeployDatabase/DeployDatabase.csproj
+  detection_source: samples/aws/sagas-lambda-aurora/SQSLambda_0/DeployDatabase/DeployDatabase.csproj
+  last_updated_by: Christian
+  last_updated_on: 2023-11-06 14:07:21.000000000 Z
+- name: MySqlConnector
+  description: A truly async MySQL ADO.NET provider
+  package_url: https://www.nuget.org/MySqlConnector
+  version: 2.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13205/default_18a92235046d8c8db548cd22b87cf5792dc31759.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/aws/sagas-lambda-aurora/SQSLambda_0/Sales/Sales.csproj
+  detection_source: samples/aws/sagas-lambda-aurora/SQSLambda_0/Sales/Sales.csproj
+  last_updated_by: Christian
+  last_updated_on: 2023-11-06 14:07:21.000000000 Z
+- name: NLog
+  description: NLog is a logging platform for .NET with rich log routing and management
+    capabilities
+  package_url: https://www.nuget.org/NLog
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12859/default_a3ccb59f9bc7225d3e241611dc27d0f4cd9875eb.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/logging/stack-trace-cleaning/Core_7/SampleWithClean/SampleWithClean.csproj
+  detection_source: samples/logging/stack-trace-cleaning/Core_7/SampleWithClean/SampleWithClean.csproj
+  last_updated_by: Brandon Ording
+  last_updated_on: 2018-05-16 22:31:16.000000000 Z
+- name: NLog.Extensions.Logging
+  description: NLog LoggerProvider for Microsoft.Extensions.Logging for logging in
+    .NET Standard libraries and .NET Core applications
+  package_url: https://www.nuget.org/NLog.Extensions.Logging
+  version: 1.6.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13244/default_43ce02ab18bb400d4d6b410ac4dc3a50f87e634a.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/NLog/Extensions.Logging_1/Extensions.Logging_1.csproj
+  detection_source: Snippets/NLog/Extensions.Logging_1/Extensions.Logging_1.csproj
+  last_updated_by: Ramon Smits
+  last_updated_on: 2020-03-12 07:32:47.000000000 Z
+- name: NServiceBus.Persistence.Sql
+  description: Sql persistence for NServiceBus
+  package_url: https://www.nuget.org/NServiceBus.Persistence.Sql
+  version: 7.0.2
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15417/default_3daf9923ccd8026393358b391c3de856b21a8437.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/aws/sagas-lambda-aurora/SQSLambda_1/DeployDatabase/DeployDatabase.csproj
+  detection_source: Snippets/SqlPersistence/SqlPersistence_4/SqlPersistence_4.csproj
+  last_updated_by: Andreas Öhlund
+  last_updated_on: 2023-11-01 19:39:24.000000000 Z
+- name: NUnit3TestAdapter
+  description: A package including the NUnit 3 TestAdapter for Visual Studio 2012
+    onwards
+  package_url: https://www.nuget.org/NUnit3TestAdapter
+  version: 3.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13216/default_e23dabba1be2c69fbf5fc50bdc46cbffbe6ca2cb.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/Core/Core_8.1/Core_8.1.csproj
+  detection_source: Snippets/Core/Core_8.1/Core_8.1.csproj
+  last_updated_by: Andreas Öhlund
+  last_updated_on: 2023-06-15 19:58:16.000000000 Z
+- name: NewRelic.Agent.Api
+  description: The New Relic .NET Agent API supports custom error and metric reporting,
+    and custom transaction parameters
+  package_url: https://www.nuget.org/NewRelic.Agent.Api
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15452/default_3daf9923ccd8026393358b391c3de856b21a8437.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/logging/new-relic/Metrics_3/Endpoint/Endpoint.csproj
+  detection_source: samples/logging/new-relic/Metrics_3/Endpoint/Endpoint.csproj
+  last_updated_by: danielmarbach
+  last_updated_on: 2017-11-02 09:09:18.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/Core/Core_7/Core_7.csproj
+  detection_source: Snippets/Core/Core_7/Core_7.csproj
+  last_updated_by: Andreas Öhlund
+  last_updated_on: 2023-10-10 20:17:06.000000000 Z
+- name: Newtonsoft.Json.Bson
+  description: Json.NET BSON adds support for reading and writing BSON
+  package_url: https://www.nuget.org/Newtonsoft.Json.Bson
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13417/default_de77a8370e47861dfbe30f06e25c22916ed609b5.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/Newtonsoft/Newtonsoft_2.4/Newtonsoft_2.4.csproj
+  detection_source: Snippets/Newtonsoft/Newtonsoft_2.4/Newtonsoft_2.4.csproj
+  last_updated_by: Jo Palac
+  last_updated_on: 2022-06-29 20:34:40.000000000 Z
+- name: Ninject.Extensions.ContextPreservation
+  description: Ninject extension that preserves the context over factories
+  package_url: https://www.nuget.org/Ninject.Extensions.ContextPreservation
+  version: 3.3.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15116/default_60803a01c257b84510f2e273f4834bcb642d90a7.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/Ninject/Ninject_7/Ninject_7.csproj
+  detection_source: Snippets/Ninject/Ninject_7/Ninject_7.csproj
+  last_updated_by: WilliamBZA
+  last_updated_on: 2020-07-28 10:11:35.000000000 Z
+- name: Npgsql
+  description: Npgsql is the open source .NET data provider for PostgreSQL
+  package_url: https://www.nuget.org/Npgsql
+  license: PostgreSQL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12954/default_971bb108ce002c2032e407a9046135e1542c46c7.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/SqlPersistence/SqlPersistence_4/SqlPersistence_4.csproj
+  detection_source: Snippets/SqlPersistence/SqlPersistence_4/SqlPersistence_4.csproj
+  last_updated_by: Andreas Öhlund
+  last_updated_on: 2023-11-01 19:39:24.000000000 Z
+- name: Octokit
+  description: An async-based GitHub API client library for .NET and .NET Core
+  package_url: https://www.nuget.org/Octokit
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13595/default_2fed3dd41a57ad03758b88d7d49dbbc498986493.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/throttling/Core_7/Limited/Limited.csproj
+  detection_source: samples/throttling/Core_7/Limited/Limited.csproj
+  last_updated_by: Brandon Ording
+  last_updated_on: 2023-11-21 07:50:39.000000000 Z
+- name: Oracle.ManagedDataAccess.Core
+  description: Oracle Data Provider for .NET
+  package_url: https://www.nuget.org/Oracle.ManagedDataAccess.Core
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13158/default_a5e8cd728170fc92850284a53a17ff7deb73f318.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/sql-persistence/simple/SqlPersistence_6/EndpointOracle/EndpointOracle.csproj
+  detection_source: samples/sql-persistence/simple/SqlPersistence_6/EndpointOracle/EndpointOracle.csproj
+  last_updated_by: Szymon Pobiega
+  last_updated_on: 2020-06-23 10:19:46.000000000 Z
+- name: Quartz
+  description: Quartz Scheduling Framework for .NET
+  package_url: https://www.nuget.org/Quartz
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13197/default_43ce02ab18bb400d4d6b410ac4dc3a50f87e634a.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/scheduling/quartz/Core_7/Scheduler/Scheduler.csproj
+  detection_source: samples/scheduling/quartz/Core_7/Scheduler/Scheduler.csproj
+  last_updated_by: Brandon Ording
+  last_updated_on: 2018-05-16 22:38:11.000000000 Z
+- name: RabbitMQ.Client
+  description: The RabbitMQ .NET client is the official client library for C#
+  package_url: https://www.nuget.org/RabbitMQ.Client
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12910/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/hosting/docker/Core_7/Receiver/Receiver.csproj
+  detection_source: samples/hosting/docker/Core_7/Receiver/Receiver.csproj
+  last_updated_by: Andreas Bednarz
+  last_updated_on: 2022-12-19 02:43:02.000000000 Z
+- name: RavenDB.Client
+  description: RavenDB Client is the client library for accessing RavenDB
+  package_url: https://www.nuget.org/RavenDB.Client
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13121/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/Raven/Raven_All/Raven_All.csproj
+  detection_source: Snippets/Raven/Raven_All/Raven_All.csproj
+  last_updated_by: Simon Cropp
+  last_updated_on: 2017-05-08 00:06:43.000000000 Z
+- name: System.Composition
+  description: This packages provides a version of the Managed Extensibility Framework
+  package_url: https://www.nuget.org/System.Composition
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13299/default_bac2e4378e5818ffa4955b20565842bac60d080a.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/plugin-based-config/Core_7/MefExtensionEndpoint/MefExtensionEndpoint.csproj
+  detection_source: samples/plugin-based-config/Core_7/MefExtensionEndpoint/MefExtensionEndpoint.csproj
+  last_updated_by: Brandon Ording
+  last_updated_on: 2023-11-20 17:43:48.000000000 Z
+- name: System.Data.SqlClient
+  description: Provides the data provider for SQL Server
+  package_url: https://www.nuget.org/System.Data.SqlClient
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12863/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/router/backplane/Router_3/Router.Shared/Router.Shared.csproj
+  detection_source: samples/router/backplane/Router_3/Router.Shared/Router.Shared.csproj
+  last_updated_by: SzymonPobiega
+  last_updated_on: 2019-11-15 11:03:31.000000000 Z
+- name: System.Management.Automation
+  description: PowerShell runtime for hosting PowerShell Core
+  package_url: https://www.nuget.org/System.Management.Automation
+  version: '6.1'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13866/default_1dc9a9444fe68b18bef2b0e836067caced79799a.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/Snippets/MsmqTransport/MsmqTransport_All/MsmqTransport_All.csproj
+  detection_source: Snippets/MsmqTransport/MsmqTransport_All/MsmqTransport_All.csproj
+  last_updated_by: David Boike
+  last_updated_on: 2019-03-29 13:56:49.000000000 Z
+  vulnerabilities:
+  - name: High severity vulnerability that affects System.Management.Automation
+    cve_id: CVE-2019-1301
+    cve_url: https://github.com/advisories/GHSA-62gw-3rmj-wmp2
+    detected_date: Aug 22
+    severity: high
+    first_patched: 6.1.6
+  - name: System.Management.Automation subject to bypass via script debugging
+    cve_id: CVE-2019-1167
+    cve_url: https://github.com/advisories/GHSA-5frh-8cmj-gc59
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 6.1.5
+- name: System.Net.NameResolution
+  description: Provides the System.Net.Dns class, which enables developers to perform
+    simple domain name resolution
+  package_url: https://www.nuget.org/System.Net.NameResolution
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13004/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/azure-service-bus-netstandard/azure-service-bus-long-running/ASBS_2/Shared/Shared.csproj
+  detection_source: samples/azure-service-bus-netstandard/azure-service-bus-long-running/ASBS_2/Shared/Shared.csproj
+  last_updated_by: Michał Wójcik
+  last_updated_on: 2021-10-14 14:34:59.000000000 Z
+- name: WindowsAzure.Storage
+  description: 'NOTE: As of version 9.4.0'
+  package_url: https://www.nuget.org/WindowsAzure.Storage
+  version: 9.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12883/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/alexravenna/docs.particular.net/blob/master/samples/showcase/cloud-azure/Core_7/Store.ECommerce/Store.ECommerce.csproj
+  detection_source: samples/showcase/cloud-azure/Core_7/Store.ECommerce/Store.ECommerce.csproj
+  last_updated_by: Yves Goeleven
+  last_updated_on: 2018-09-28 11:26:23.000000000 Z
