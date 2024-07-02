@@ -107,6 +107,10 @@
         {
           "Minor": "5.1",
           "SupportLevel": "Mainstream"
+        },
+        {
+          "Minor": "5.2",
+          "SupportLevel": "Mainstream"
         }
       ]
     },
@@ -684,6 +688,10 @@
         {
           "Minor": "8.0",
           "SupportLevel": "Mainstream"
+        },
+        {
+          "Minor": "8.1",
+          "SupportLevel": "Mainstream"
         }
       ]
     },
@@ -700,6 +708,10 @@
         },
         {
           "Minor": "8.0",
+          "SupportLevel": "Mainstream"
+        },
+        {
+          "Minor": "8.1",
           "SupportLevel": "Mainstream"
         }
       ]
@@ -962,7 +974,12 @@
     },
     {
       "PackageId": "NServiceBus.Transport.PostgreSql",
-      "Versions": []
+      "Versions": [
+        {
+          "Minor": "8.1",
+          "SupportLevel": "Mainstream"
+        }
+      ]
     },
     {
       "PackageId": "NServiceBus.Transport.SqlServer",
@@ -977,6 +994,10 @@
         },
         {
           "Minor": "8.0",
+          "SupportLevel": "Mainstream"
+        },
+        {
+          "Minor": "8.1",
           "SupportLevel": "Mainstream"
         }
       ]
@@ -1141,7 +1162,7 @@
           "SupportLevel": "Mainstream"
         },
         {
-          "Minor": "5.2",
+          "Minor": "5.3",
           "SupportLevel": "Mainstream"
         }
       ]
