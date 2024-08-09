@@ -17,11 +17,11 @@ This minimal example creates a database container using `docker run`:
 
 ```shell
 docker run -d --name servicecontrol-db \
-    -v <DATA_DIRECTORY>:/opt/RavenDB/Server/RavenData
+    -v <DATA_DIRECTORY>:/opt/RavenDB/Server/RavenData \
     particular/servicecontrol-ravendb:latest
 ```
 
-This will expose the RavenDB interface at `http://servicecontrol-db:8080` which can be used for the `RAVENDB_CONNECTIONSTRING` value for an [Error instance](/servicecontrol/servicecontrol-instances/deployment/containers.md) or [Audit instance](/servicecontrol/audit-instances/deployment/containers.md).
+Once the database container is running, the connection string `http://servicecontrol-db:8080` can be used for the `RAVENDB_CONNECTIONSTRING` value for an [Error instance](/servicecontrol/servicecontrol-instances/deployment/containers.md) or [Audit instance](/servicecontrol/audit-instances/deployment/containers.md).
 
 ## Required settings
 

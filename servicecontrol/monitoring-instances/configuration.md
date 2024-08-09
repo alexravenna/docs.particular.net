@@ -193,7 +193,7 @@ The time after which the endpoint is considered stale if it stops sending messag
 
 _Added in version 5.4.0_
 
-The queue on which throughput data is received by ServiceControl error instance. This setting must match the equivalent [`LicensingComponent/ServiceControlThroughputDataQueue`](/servicecontrol/servicecontrol-instances/configuration.md).md#usage-reporting-when-using-servicecontrol-licensingcomponentservicecontrolthroughputdataqueue) setting on the ServiceControl error instance.
+The queue on which throughput data is received by ServiceControl error instance. This setting must match the equivalent [`LicensingComponent/ServiceControlThroughputDataQueue`](/servicecontrol/servicecontrol-instances/configuration.md#usage-reporting-when-using-servicecontrol-licensingcomponentservicecontrolthroughputdataqueue) setting on the ServiceControl error instance.
 
 In most instances these settings do not need to be modified.
 
@@ -201,6 +201,11 @@ If running multiple setups of the Platform Tools (i.e. multiple versions of Serv
 
 If using [MSMQ transport](/transports/msmq) and the monitoring instance is installed on a different machine to the ServiceControl error instance, then only the monitoring instance setting needs to be modified to include the machine name of the error instance in the queue address.
 
-Type: string
+| Context | Name |
+| --- | --- |
+| **Environment variable** | `MONITORING_SERVICECONTROLTHROUGHPUTDATAQUEUE` |
+| **App config key** | `Monitoring/ServiceControlThroughputDataQueue` |
 
-Default: `ServiceControl.ThroughputData`
+| Type | Default value |
+| --- | --- |
+| string | `ServiceControl.ThroughputData` |
