@@ -390,32 +390,67 @@ To mitigate growth or not having enough storage:
 When the following conditions are met:
 
 - ServiceControl Audit instances are installed on Windows as a service
-- The audit database size is massive (> 500Gb)
+- The audit database size is above 100Gb
 - There is a constant load on the database due to:
   - Continuously ingesting messages from the audit queue
-  - Message expiration kicking in to delete expired audit messages
-- Database indexes use the Corax indexing engine
+  - Deletion of expired audit messages
+- Database full-text indexes use the Corax indexing engine
 
-There is a chance that, at service shutdown, ServiceControl takes a long time to shut down and, in most cases, doesn't shut down gracefully because the RavenDB database is busy updating indexes due to ingestion and cleaning up tombstones due to retention.
+There is a higher probability that the database engine cannot shutdown gracefully because due to normal operation the continious ingestion and cleaning up tombstones the flushing of index data during stop to take considerably longer.
 
-To mitigate this situation, migrating indexes from the Corax to the Lucene indexing engine can solve the issue. It might be sufficient to migrate to Lucene the `MessagesViewIndex` (regardless of the fact that full-text search is enabled or not), which is the one with the highest load.
+> [!NOTE]
+> Although no data will be lost an ungraceful shutdown will delay a restart as the database engine will might require to run a lenghty recovery operation which will result in a lot of storage IO.
+
+To mitigate this situation, migrating full-text search indexes from Corax to the Lucene indexing engine can solve the issue.
+
+It might be sufficient to migrate to Lucene the `MessagesViewIndex` (regardless of the fact that full-text search is enabled or not), which is the one with the highest load.
+
+1. Migrate full-text indexes from the Corax to the Lucene index engine
+2. Lock the index to ensure the index will not be recreated using Corax at restart
+
+
+### Migrate from the Corax to the Lucene
 
 To migrate indexes from the Corax to the Lucene indexing engine, perform the following steps:
 
 1. Start the ServiceControl Audit instance in [maintenance mode](/servicecontrol/ravendb/accessing-database.md#windows-deployment-maintenance-mode)
 2. Access the RavenDB studio
-3. Edit the index that needs to be changed
-4. From the edit index Configuration tab
+3. Edit the `MessagesViewIndex` index that needs to be changed
+4. Select the index **Configuration** tab (tabs row after the first section)
 5. Change the indexing engine from Corax or Corax (inherited) to Lucene
-6. Click save
+6. Click save (upper left)
 
-At this point, there will be two indexes, the original one and the new one with the Lucene indexing engine. The RavenDB studio will offer the option to swap them. The swap operation will:
+At this point, there will be two indexes, the original Corax based one and the new Lucene based index. The RavenDB studio will offer the option to swap them. The swap operation will:
 
 - Make the Lucene index the default
 - Delete the Corax index
 
+> [!NOTE]
+> Indexes can be swapped immediately if storage space is an issue but search operations will return stale results until the index has been fully rebuild
+
 After the swap operation, the new Lucene-based index must be rebuilt. Depending on the index size, the operation might take a long time.
+
+### Lock the index
 
 When ServiceControl is restarted, the Corax-based index may get recreated. To prevent the ServiceControl instance from recreating the index, the index can be locked.
 
-To lock an index, from the RavenDB studio, while ServiceControl is still in maintenance mode, look for the index that was set to use Lucene and click the `🔓 Unlocked` button. Change the setting to `🔒 Locked` ([Locked Ignore](https://ravendb.net/docs/article-page/7.0/csharp/client-api/operations/maintenance/indexes/set-index-lock#lock-modes)). The RavenDB studio will notify the operation completion with the message: _Lock mode was set to: Locked (ignore)_. 
+To lock an index, from the RavenDB studio, while ServiceControl is still in maintenance mode, look for the index that was set to use Lucene and click the `🔓 Unlocked` button. Change the setting to `🔒 Locked` ([Locked Ignore](https://ravendb.net/docs/article-page/7.0/csharp/client-api/operations/maintenance/indexes/set-index-lock#lock-modes)). The RavenDB studio will notify the operation completion with the message: _Lock mode was set to: Locked (ignore)_.
+
+## RavenDB dirty memory
+
+_Available in version 6.5_
+
+Each ServiceControl instance stores its data in a RavenDB database. RavenDB immediately writes data to the journal files and synchronizes writes to the data files in the background. The amount of data that needs to be flushed to disk is called "dirty memory."
+
+Continuous dirty memory increase indicates too much pressure on the ServiceControl instance database. When that happens, the following custom check message is presented:
+
+> There is a high level of RavenDB dirty memory ({dirtyMemoryKb}kb). See `https://docs.particular.net/servicecontrol/troubleshooting#ravendb-dirty-memory` for guidance on how to mitigate the issue.
+
+> [!NOTE]
+> The same message is logged with a warning severity in the ServiceControl instance logs.
+
+Dirty memory issues can be mitigated using one or more of the following strategies:
+
+- Consider adding faster storage to reduce I/O impact and allow the RavenDB instance to flush dirty memory faster
+- Reduce the instance max concurrency level by reducing the `MaximumConcurrencyLevel` setting ([error instance documentation](servicecontrol-instances/configuration.md#performance-tuning-servicecontrolmaximumconcurrencylevel), [audit instance documentation](audit-instances/configuration.md#performance-tuning-servicecontrol-auditmaximumconcurrencylevel))
+- If the issue affects an audit instance, consider [scaling it out using a sharding or a competing consumer approach](servicecontrol-instances/remotes.md).
